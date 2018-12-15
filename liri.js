@@ -82,15 +82,16 @@ var doWhat = function() {
 
         }
 
-        content = data.split(",");
+        content = data.split(',”');
+        var searchQuery = content[1].trim();
 
         if (content[0] == "spotify-this-song") {
-            spotifyThis(content[1]); 
-            console.log(content[1])
+            searchQuery = searchQuery.replace("\"", "");
+            spotifyThis(searchQuery); 
         } else if (content[0] == "movie-this") {
-            movieThis(content[1]);
+            movieThis(searchQuery);
         } else if (content[0] == "concert-this") {
-            concertThis(content[1]);
+            concertThis(searchQuery);
         }
     });
 }
