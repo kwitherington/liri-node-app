@@ -22,7 +22,7 @@ LIRI can take the following commands:
 
 1. `node liri.js concert-this <artist/band name here>`
 
-![Concert This](./screenshots/concert-this)
+![Concert This](/screenshots/concert-this)
 
    * This searches the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
 
@@ -34,7 +34,7 @@ LIRI can take the following commands:
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
-![Spotify This](./screenshots/spotify-this-song)
+![Spotify This](/screenshots/spotify-this-song)
 
    * This shows the following information about the song in your terminal/bash window
 
@@ -50,7 +50,7 @@ LIRI can take the following commands:
 
 3. `node liri.js movie-this '<movie name here>'`
 
-![Movie This](./screenshots/movie-this)
+![Movie This](/screenshots/movie-this)
 
    * This outputs the following information to your terminal/bash window:
 
@@ -69,6 +69,6 @@ LIRI can take the following commands:
 
 4. `node liri.js do-what-it-says`
 
-![Do What It Says](./screenshots/do-what-it-says)
+![Do What It Says](/screenshots/do-what-it-says)
 
    * Using the `fs` Node package, LIRI takes the text inside of random.txt and then use it to call one of LIRI's commands.
